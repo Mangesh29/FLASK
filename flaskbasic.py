@@ -19,15 +19,15 @@ def math_ops():
             r = num1+ num2
             addresult= "sum  of "+ str(num1) + str(num2) +"is"+str(r)
 
-        if(ops == 'subtract'):
-            r = num1- num2
-            addresult= "subtract is "+ str(num1) + str(num2) +"is"+str(r)
+        elif(ops == 'subtract'):
+            r = abs(num1- num2)
+            addresult= "subtract of "+ str(num1) + str(num2) +"is"+str(r)
 
-        if(ops == 'multiply'):
+        elif(ops == 'multiply'):
             r = num1* num2
             addresult= "multiply  of "+ str(num1) + str(num2) +"is"+str(r)
 
-        if(ops == 'divide'):
+        elif(ops == 'divide'):
             r = num1/ num2
             addresult= "divide by "+ str(num1) + str(num2) +"is"+str(r)
                 
